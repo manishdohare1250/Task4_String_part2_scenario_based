@@ -1,0 +1,39 @@
+    1. A company is onboarding new employees and wants to automatically generate official email addresses. The system should accept the employee's full name and department, remove extra spaces, convert all characters to lowercase, replace spaces with dots (.), and append the company domain (for example, @abc.com). Display the generated email address.
+    
+    2. A university issues roll numbers in the format CSE2026XXXX, where CSE is the department code, 2026 is the admission year, and XXXX is a four-digit unique number. Develop a program to validate whether the entered roll number follows the required format and display an appropriate message.
+    
+    3. An online shopping platform collects customer feedback after every purchase. The management wants to know whether a feedback message contains positive words such as good, excellent, awesome, or great. Write a program that accepts customer.
+    
+    4. A banking application requires users to create secure passwords. A valid password must contain at least 8 characters, one uppercase letter, one lowercase letter, one digit, and one special character. Write a program to validate the password and display whether it is Strong or Weak.
+    
+    5. An inventory system generates product codes using the first three letters of the product name, the first two letters of the brand name, and the last three digits of the product ID. Convert all letters to uppercase and display the generated product code.
+Example
+ Product : Laptop
+Brand   : Dell
+ID       : 124578
+
+Output:
+LAPDE578
+
+    7. A recruitment portal receives resumes in text format. The HR team wants to identify resumes containing important technical skills such as Java, Spring Boot, SQL, and React. Write a program that accepts the resume content and counts how many required skills are present.
+    8. A document management system stores thousands of files with different extensions. Write a program to accept a file name and determine whether it is a PDF, Word, Excel, or Image file based on its extension.
+    9. A social media platform stores a list of existing usernames. When a new user enters a username, the system should ignore letter case while checking whether the username already exists. Display whether the username is available or already taken.
+    10. A server continuously generates log messages. The administrator wants to know how many times the word ERROR appears in a log file. Write a program that counts the number of occurrences of ERROR and displays the result.
+    11. A billing application stores invoice numbers entered by employees in different formats. Before saving, the system should remove leading and trailing spaces, convert all letters to uppercase, and replace spaces with hyphens (-) to maintain a standard format.
+
+    12. A company stores website URLs submitted by customers. Write a program to check whether the entered URL starts with http:// or https:// and display whether it is a valid website URL.
+    13. An organization wants to analyze employee email addresses. Write a program to count how many employees use each email domain (such as gmail.com, yahoo.com, company.com) from a list of email addresses.
+    14. An HR system wants to display employee initials on ID cards. Write a program to accept the employee's full name and generate initials.
+Example
+Input:
+Sai Krishna Reddy
+
+Output:
+S.K.R
+    15. A messaging application needs to block inappropriate words before displaying messages. Given a chat message and a list of blocked words, replace each blocked word with **** and display the filtered message.
+    16. A content management system receives articles from writers. Develop a program to display:
+    •  Total number of words 
+    •  Total number of characters 
+    •  Longest word 
+    •  Shortest word 
+    • Average word length 
